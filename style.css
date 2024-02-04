@@ -1,0 +1,52 @@
+body {
+     margin: 0;
+     padding: 0;
+margin-top: 20%;
+     background-color: RGB(25, 24, 21);
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+.container{
+    border: 3px solid rgb(138, 138, 138);
+padding-left: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input_number_one,
+.input_number_two{
+    background-color: rgb(126, 118, 118);
+    color: rgb(69, 246, 246);
+    text-align: center;
+}
+
+.input_number_one,
+.input_number_two:focus{
+    outline: none ;
+    box-shadow: none
+}
+
+.button{
+    background-color: rgb(188, 183, 183) ;
+    cursor: pointer;
+}
+
+.select:focus{
+    outline: none ;
+    box-shadow: none
+}
+
+
+.select {
+    background-color:rgb(188, 183, 183) ;
+}
+
+
+.span{
+    color:rgb(69, 246, 246);
+    padding-right: 10px;
+}
